@@ -10,4 +10,5 @@
 
 <h2> Punto 1: Link de Figma </h2>
 
-<a href= "https://www.figma.com/file/sBwMHT3RlLkUOtrBcUROig/Sule-Figma?type=design&node-id=0%3A1&t=8lcF0Ofq0hKGfmA1-1"> Link de FIGMA</a>
+<a href= "https://www.figma.com/file/sBwMHT3RlLkUOtrBcUROig/Sule-Figma?type=design&node-id=0%3A1&t=8lcF0Ofq0hKGfmA1-1" target="_blank"> Link de FIGMA</a>
+
