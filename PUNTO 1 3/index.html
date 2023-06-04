@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="header__navigation">
             <img src="./public/images/header-logo.png" alt="main-logo">
             <nav>
                 <ul>
@@ -22,14 +24,16 @@
             </nav>
         </div>
 
-        <div>
+        <div class="header__settings">
+            <div>
             <img src="./public/images/header-word.png" alt="world">
             <span>Español</span>
+        </div>
+            <div>
+                <button>Ingresar</button>
+            </div>
+        </div>
 
-        </div>
-        <div>
-            <button>Ingresar</button>
-        </div>
     </header>
     <main>
         <section id="banner">
@@ -37,28 +41,30 @@
                 <h1>
                     Aprovecha la era
                     digital, toma clases
-                    en linea
+                    en línea
                 </h1>
-
+<div>
                 <p>
                     Toma los cursos más importantes de tecnología con clases en
                     línea, donde podrás tener acceso
                     a contenido actualizado desde la comodidad
                     de tu casa y a tu ritmo.
+                </div>
                 </p>
+
+                <div>
+                    <button class="button--orange">
+                        Saber más
+                    </button>
+                    <button class="button--white">
+                        Planes
+                    </button>
+                </div>
             </div>
 
-
-            <div>
-                <button>
-                    Saber más
-                </button>
-                <button>
-                    Planes
-                </button>
-            </div>
-            <div>
-                <img src="./public/images/banner-online.png" alt="online-education" width="550px" height="350px">
+    
+            <div id="img">
+                <img src="./public/images/banner-online.png" alt="online-education" width="653px" height="454px">
             </div>
 
         </section>
@@ -73,16 +79,21 @@
                     nos gusta el cambio, te enseñamos tecnologias contemporaneas.
                 </p>
             </div>
+
+            <div>
             <img src="./public/images/section1-education.png" alt="education" width="120px" height="120px">
             <h3>Virtualidad y educación</h3>
+        </div>
+        
             <div>
                 <h3>Alcance y objetivos</h3>
                 <img src="./public/images/section1-goals.png" alt="goals" width="120px" height="120px">
             </div>
-            <h3>Clases Inclusivas</h3>
-            <img src="./public/images/section1-teach.png" alt="teach" width="120px" height="120px">
-            <div>
 
+        
+            <div>
+                <h3>Clases Inclusivas</h3>
+                <img src="./public/images/section1-teach.png" alt="teach" width="120px" height="120px">
             </div>
 
             <div></div>
@@ -103,8 +114,9 @@
                         la mejor experiencia en línea
 
                     </p>
-                    <button>Saber más</button>
-
+                    <div>
+                    <button  class="button--orange">Saber más</button>
+                </div>
                 </div>
             </div>
 
@@ -119,7 +131,7 @@
                     de nuestros cursos.
 
                 </p>
-                <button>Saber más</button>
+                <button  class="button--orange">Saber más</button>
 
                 <img src="./public/images/section2-goals.png" alt="tools" width="500px" height="350px">
 
