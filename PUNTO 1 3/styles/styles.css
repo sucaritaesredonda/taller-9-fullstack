@@ -7,6 +7,16 @@ a {
     font-size: 18px;
 }
 
+h2 {
+    margin: 5px 0px;
+    color: #454868;
+    font-family: 'Jost';
+    font-size: 48px;
+ line-height: 55px;
+ letter-spacing: -0.64px;
+}
+
+
 header {
     display: flex;
     margin: 0px 100px;
@@ -24,6 +34,9 @@ header {
     gap: 45px;
     list-style: none;
 }
+
+
+
 
 .header__navigation nav ul li a {
     text-decoration: none;
@@ -109,6 +122,62 @@ top: 271px;
 #section-1{
     display: flex;
     justify-content: space-between;
-    margin: 25px 100px;
-    padding: 0px 80px;
+    margin: 50px 100px;
+    padding: 20px 80px;
+}
+.section-1__info{
+    width: 30%;
+    text-align: justify;
+}
+
+
+
+.section-1__card {
+    border-radius: 48px;
+    box-shadow: 0px 10px 50px #45486833;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 195px;
+    width: min-content;
+}
+
+.section-1__card h3 {
+    font-family: 'Jost';
+    text-align: center;
+    color: #454868;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+}
+
+#section-2 {
+    padding: 20px 180px;
+    background: #ed80fd26;
+}
+
+
+.section-2__info {
+    display: flex;
+    margin: 70px 0px;
+    gap: 35px;
+}
+.section-2__sub-pink {
+    color: #ED80FD;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    padding: 20px 100px;
+    background-color: #010851;
+    color: #fff;
+}
+
+.footer__info {
+    width: 35%;
 }

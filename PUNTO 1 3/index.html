@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -70,7 +70,7 @@
         </section>
 
         <section id="section-1">
-            <div>
+            <div class="section-1__info">
                 <h2>¿Por qué
                     elegirnos
                     a nosotros?</h2>
@@ -80,34 +80,34 @@
                 </p>
             </div>
 
-            <div>
+            <div class="section-1__card">
             <img src="./public/images/section1-education.png" alt="education" width="120px" height="120px">
             <h3>Virtualidad y educación</h3>
         </div>
         
-            <div>
+            <div class="section-1__card">
                 <h3>Alcance y objetivos</h3>
                 <img src="./public/images/section1-goals.png" alt="goals" width="120px" height="120px">
             </div>
 
         
-            <div>
+            <div class="section-1__card">
                 <h3>Clases Inclusivas</h3>
                 <img src="./public/images/section1-teach.png" alt="teach" width="120px" height="120px">
             </div>
 
-            <div></div>
+            
         </section>
 
         <section id="section-2">
-            <div>
+            <div class="section-2__info">
                 <img src="./public/images/section2-tools.png" alt="tools" width="500px" height="350px">
 
-                <div>
+                <div >
                     <h2>Brindamos herramientas
                         para que tu aprendizaje
                     </h2>
-                    <h2>sea efectivo.</h2>
+                    <h2 class="section-2__sub-pink">sea efectivo.</h2>
                     <p>
                         Las herramientas digitales son nuestras aliadas y
                         aprovechamos cada una de estas para brindarte
@@ -121,18 +121,23 @@
             </div>
 
 
-            <div>
+            <div class="section-2__info">
+                
+                <div>
                 <h2>Educación pensando en
                 </h2>
-                <h2>objetivos alcanzados.</h2>
+                <h2 class="section-2__sub-pink">objetivos alcanzados.</h2>
                 <p>
                     Es importante para nosotros que las metas de cada uno de
                     nuestros estudiantes sea alcanzada a través
                     de nuestros cursos.
-
+               
                 </p>
-                <button  class="button--orange">Saber más</button>
-
+                <div>
+                    <button  class="button--orange">Saber más</button>
+                </div>
+            </div>
+                
                 <img src="./public/images/section2-goals.png" alt="tools" width="500px" height="350px">
 
 
@@ -146,11 +151,10 @@
 
     <footer id="footer">
 
-        <div>
+        <div class="footer__info">
+        
             <img src="./public/images/footer-logo.png" alt="footer-logo" width="200px" height="175px">
             
-        </div>
-
         <div>
             <p>
                 Únete a nuestra comunidad para recibir información
@@ -160,6 +164,7 @@
                     id="email"><button>Suscribirse</button>
             </form>
         </div>
+    </div>
 
         <div>
 <table>
