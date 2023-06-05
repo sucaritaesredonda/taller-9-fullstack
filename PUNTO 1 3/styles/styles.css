@@ -144,6 +144,10 @@ top: 271px;
     width: min-content;
 }
 
+.section-1__card-down{
+    margin-top: 50px;
+}
+
 .section-1__card h3 {
     font-family: 'Jost';
     text-align: center;
@@ -180,4 +184,40 @@ top: 271px;
 
 .footer__info {
     width: 35%;
+}
+
+input {
+    width: 220px;
+    padding: 12px 20px;
+    margin-right: -15px;
+    border: none;
+    border-radius: 10px;
+    background-color:#45486899;
+}
+
+.button--pink{
+    background-color:#ED80FD ;
+    border: none;
+    color:#fff
+}
+
+table{
+    font-family: 'Jost';
+    text-align: left;
+}
+
+tr {
+    height: 40px;
+}
+
+th {
+    height: 80px;
+}
+
+td {
+    padding-right: 80px;
+}
+
+td a{
+    color: #fff;
 }
