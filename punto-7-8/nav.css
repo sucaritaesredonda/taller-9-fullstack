@@ -1,0 +1,25 @@
+nav{
+    background-color: rgba(137, 43, 226, 0.685);
+    color: #fff;
+list-style: none;
+padding-bottom: 0;
+margin: -8px -8px;
+margin-top: -18px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 25px 25px;
+    align-items: center;
+}
+
+nav button{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-color:transparent;
+    padding: 5px 5px;
+    cursor: pointer;
+}

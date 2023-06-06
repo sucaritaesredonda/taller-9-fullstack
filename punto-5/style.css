@@ -1,0 +1,20 @@
+#rojo{
+    color: red;
+}
+
+#verde{
+    color: green;
+}
+
+#doble{
+    text-decoration-line: overline underline;
+}
+
+#grande{
+    font-size: xx-large;
+}
+
+#mediano{
+    font-size: large;
+    color: blue;
+}
