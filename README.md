@@ -8,6 +8,10 @@
 
 <p> Profesor: Cristian Patiño </p>
 
+<h2>link pagina </h2>
+
+<a href="https://sucaritaesredonda.github.io/taller-9-fullstack/" target="_blank"> LINK DE LA PAGINA</a>
+
 <h2> Punto 1: Link de Figma </h2>
 
 <a href= "https://www.figma.com/file/sBwMHT3RlLkUOtrBcUROig/Sule-Figma?type=design&node-id=0%3A1&t=8lcF0Ofq0hKGfmA1-1" target="_blank"> Link de FIGMA</a>
