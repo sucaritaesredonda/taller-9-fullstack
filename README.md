@@ -29,7 +29,7 @@
 <img src="./public/IMAGENES/punto9 (3).png" alt="images">
 
 <h2>Punto 7-8: Navegación  </h2>
-<img src=".x/public/IMAGENES/punto9 (2).png" alt="images">
+<img src="./public/IMAGENES/punto9 (2).png" alt="images">
 
 <h2>Punto 9: Tablas  </h2>
 <img src="./public/IMAGENES/punto9 (1).png" alt="images">
