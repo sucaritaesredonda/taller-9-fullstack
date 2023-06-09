@@ -22,3 +22,16 @@
 <h2>Punto 3: CSS </h2>
 <img src="./public/IMAGENES/CSS.png" alt="images">
 
+<h2>Punto 4: titulos  </h2>
+<img src="./public/IMAGENES/punto9 (5).png" alt="images">
+
+<h2>Punto 6: Enlaces  </h2>
+<img src="./public/IMAGENES/punto9 (3).png" alt="images">
+
+<h2>Punto 7-8: Navegación  </h2>
+<img src=".x/public/IMAGENES/punto9 (2).png" alt="images">
+
+<h2>Punto 9: Tablas  </h2>
+<img src="./public/IMAGENES/punto9 (1).png" alt="images">
+
+
